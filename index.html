@@ -4,350 +4,681 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title></title>
-    <link rel="icon" href="img" />
+    <title>MCPUZ</title>
+    <link rel="icon" href="img/500x500.png" />
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div id="cookie-popup" class="class-cookie-popup">
-      <div class="class-cookie-popup-container">
-        <p class="class-cookie-popup-text-two">
-          We use cookies to improve your experience on our website. By browsing
-          this website, you agree to our use of cookies.
+    <div id="cookie-popup" class="r-f-cookie-popup">
+      <div class="r-f-cookie-popup-container">
+        <p class="r-f-cookie-popup-text-two">
+          We use cookies to enhance your experience while using our website. By
+          continuing to use this site, you consent to our use of cookies.
         </p>
-        <div class="class-cookie-button-container">
-          <button id="accept-cookies" class="class-cookie-button">
-            Accept cookies
-          </button>
-          <button id="decline-cookies" class="class-cookie-button">
-            Decline Cookies
-          </button>
+        <div class="r-f-cookie-button-container">
+          <button id="accept-cookies" class="r-f-cookie-button">Accept</button>
+          <button id="decline-cookies" class="r-f-cookie-button">Reject</button>
         </div>
       </div>
     </div>
-    <header class="class-header">
-      <div class="class-header-background"></div>
-      <nav class="class-navigation">
-        <ul class="class-navigation-list">
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">
+    <header class="r-f-header">
+      <div class="r-f-header-background"></div>
+      <nav class="r-f-navigation">
+        <ul class="r-f-navigation-list">
+          <li class="r-f-navigation-item">
+            <a href="/" class="r-f-navigation-link">
               <img
                 href="/"
-                class="class-title-img class-navigation-img"
+                class="r-f-title-img r-f-navigation-img"
                 alt="logo"
+                src="img/logo.png"
+                style="width: 88px; height: 40px"
               />
             </a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/" class="class-navigation-link">Home</a>
+          <li class="r-f-navigation-item">
+            <a href="/" class="r-f-navigation-link">Home</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#why" class="class-navigation-link">Why Us?</a>
+          <li class="r-f-navigation-item">
+            <a href="/#about" class="r-f-navigation-link">About MCPUZ</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#uniqueness" class="class-navigation-link"
-              >Our Uniqueness</a
+          <li class="r-f-navigation-item">
+            <a href="/#how" class="r-f-navigation-link"> How It Works</a>
+          </li>
+
+          <li class="r-f-navigation-item">
+            <a href="/#uniqueness" class="r-f-navigation-link"
+              >Stress & Rhythm</a
             >
           </li>
-          <li class="class-navigation-item">
-            <a href="/#about" class="class-navigation-link">About the Game</a>
+          <li class="r-f-navigation-item">
+            <a href="/#why" class="r-f-navigation-link">Sound Presets</a>
           </li>
-          <li class="class-navigation-item">
-            <a href="/#how" class="class-navigation-link">How to Play</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#characters" class="class-navigation-link">Characters</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#reviews" class="class-navigation-link">User Reviews</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#faq" class="class-navigation-link">FAQ</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#gallery" class="class-navigation-link">Gallery</a>
-          </li>
-          <li class="class-navigation-item">
-            <a href="/#features" class="class-navigation-link">Features</a>
-          </li>
-          <li class="class-navigation-item">
-            <a
-              href="/policy.html"
-              class="class-navigation-link class-navigation-item-desk"
+          <li class="r-f-navigation-item">
+            <a href="/#characters" class="r-f-navigation-link">
+              Neuro-Audio Research</a
             >
-              Privacy Policy
-            </a>
           </li>
-          <li class="class-navigation-item">
-            <a
-              href="/terms.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Terms and Conditions
-            </a>
+          <li class="r-f-navigation-item">
+            <a href="/#reviews" class="r-f-navigation-link">Testimonials</a>
           </li>
-          <li class="class-navigation-item">
-            <a
-              href="/cookies.html"
-              class="class-navigation-link class-navigation-item-desk"
-            >
-              Cookies Policy
-            </a>
+          <li class="r-f-navigation-item">
+            <a href="/#faq" class="r-f-navigation-link">FAQ</a>
+          </li>
+
+          <li class="r-f-navigation-item">
+            <a href="/#features" class="r-f-navigation-link">Contact</a>
           </li>
         </ul>
 
-        <div class="class-header-button-wrapper">
-          <a href="/" class="class-header-icon-title">
-            <img href="/" class="class-title-img" alt="logo" />
+        <div class="r-f-header-button-wrapper">
+          <a href="/" class="r-f-header-icon-title">
+            <img
+              href="/"
+              class="r-f-title-img"
+              alt="logo"
+              src="img/logo.png"
+              style="width: 88px; height: 40px"
+            />
           </a>
 
-          <button
-            type="button"
-            class="class-header-icon-button"
-            data-menu-button
-          >
+          <button type="button" class="r-f-header-icon-button" data-menu-button>
             <img
-              class="class-header-icon class-header-icon-menu"
-              src="img/header/menu.png"
+              class="r-f-header-icon r-f-header-icon-menu"
+              src="img/icon_burger.png"
+              style="width: 40px; height: 40px"
               alt="menu "
             />
-            <img
-              class="class-header-icon class-header-icon-close"
-              src="img/header/menu (1).png"
-              alt="close"
-            />
+
+            <svg
+              class="r-f-header-icon r-f-header-icon-close"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.6663 31.6667L8.33301 29.3333L17.6663 20L8.33301 10.6667L10.6663 8.33334L19.9997 17.6667L29.333 8.33334L31.6663 10.6667L22.333 20L31.6663 29.3333L29.333 31.6667L19.9997 22.3333L10.6663 31.6667Z"
+                fill="white"
+              />
+            </svg>
           </button>
         </div>
       </nav>
     </header>
 
     <main>
-      <section class="class-home" id="home">
-        <div class="class-home-container">
-          <div class="class-home-container-top">
-            <img class="class-home-title-img" src="/img/home" alt="title" />
-            <p class="class-home-title">Merge Food - Chef Decoration</p>
-            <p class="class-home-text">
-              Cook, Merge, and Create Your Dream Kitchen!
+      <section class="r-f-home" id="home">
+        <div class="r-f-home-container">
+          <div class="r-f-home-container-top">
+            <p class="r-f-home-title">Hear What You Need to Heal</p>
+            <p class="r-f-home-text">
+              Welcome to MCPUZ, the world’s first AI-powered sonic therapy tool
+              designed to synchronize with your heart rate, stress levels, and
+              mental state. By analyzing biometric feedback in real time, our
+              generative audio engine composes personalized soundscapes tailored
+              to your inner rhythms — helping you recalibrate, decompress, and
+              reset your nervous system.
             </p>
-            <div class="class-home-div">
-              <a class="class-home-link" href="#"> </a>
+            <div class="r-f-home-div">
+              <a class="r-f-home-link" href="#"
+                >Start Listening to Your Nervous System</a
+              >
             </div>
+            <p class="r-f-home-text-two">
+              Experience therapeutic sound the way your body truly needs it.
+            </p>
           </div>
         </div>
       </section>
-      <section class="class-about" id="about">
-        <div class="class-about-container">
-          <h2 class="class-about-title">About the Game</h2>
-          <p class="class-about-text">
-            <span class="class-about-text-bold"
-              >Merge Food - Chef Decoration</span
-            >
-            combines the
+      <section class="r-f-about" id="about">
+        <div class="r-f-about-container">
+          <h2 class="r-f-about-title">
+            <div class="r-f-about-title-img"></div>
+            About MCPUZ
+          </h2>
+          <p class="r-f-about-title-text">
+            AI meets bioacoustics: a new frontier in sound wellness
+          </p>
+          <ul class="r-f-about-text">
+            <li>
+              MCPUZ is a deep-tech audio system that bridges neuroscience,
+              psychoacoustics, and AI composition. Unlike pre-recorded
+              meditation apps or static playlists, MCPUZ listens to you first —
+              then creates sound accordingly.
+            </li>
+            <li>
+              We believe sound is not just entertainment. It’s a language your
+              nervous system understands deeply. By interpreting
+              micro-variations in your heartbeat, breathing patterns, and stress
+              markers, our AI generates musical and ambient sequences with
+              real-time adaptive logic.
+            </li>
+            <li>
+              What results is a living soundtrack for your neurobiology —
+              ever-evolving, never repeated.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="r-f-how" id="how">
+        <div class="r-f-how-container">
+          <h2 class="r-f-about-title" style="margin: 0 auto">
+            <div class="r-f-about-title-img"></div>
+            How It Works
+          </h2>
+          <p
+            class="r-f-about-title-text"
+            style="text-align: center; margin: 0 auto"
+          >
+            Step into intelligent auditory feedback
+          </p>
+
+          <ul class="r-f-how-list">
+            <li class="r-f-how-item">
+              <figure class="r-f-how-img">
+                <img
+                  class="r-f-how-img"
+                  src="/img/how//Feature Icon (1).png"
+                  alt="image"
+                />
+              </figure>
+              <p class="r-f-how-text">
+                <span class="r-f-how-text-bold">Connect your biometrics</span>
+                — via supported devices (smartwatch, pulse oximeter, or
+                camera-based HRV detection).
+              </p>
+            </li>
+            <li class="r-f-how-item">
+              <figure class="r-f-how-img">
+                <img
+                  class="r-f-how-img"
+                  src="/img/how//Feature Icon (2).png"
+                  alt="image"
+                />
+              </figure>
+              <p class="r-f-how-text">
+                <span class="r-f-how-text-bold">Calibration</span> — Our system
+                measures baseline rhythms: heart rate variability (HRV), resting
+                BPM, and tension peaks.
+              </p>
+            </li>
+            <li class="r-f-how-item">
+              <figure class="r-f-how-img">
+                <img
+                  class="r-f-how-img"
+                  src="/img/how//Feature Icon (3).png"
+                  alt="image"
+                />
+              </figure>
+              <p class="r-f-how-text">
+                <span class="r-f-how-text-bold"
+                  >Real-time sonic adaptation</span
+                >
+                — Audio loops are generated based on your nervous system’s
+                current state.
+              </p>
+            </li>
+          </ul>
+          <p class="r-f-how-text-two">
+            Whether you're in fight-or-flight, deep focus, o r ready for sleep,
+            MCPUZ knows how to harmonize your physiology.
           </p>
         </div>
       </section>
-      <article class="class-why" id="why">
+      <section class="r-f-uniqueness" id="uniqueness">
+        <div class="r-f-uniqueness-container">
+          <h2 class="r-f-about-title">
+            <div class="r-f-about-title-img"></div>
+            Stress & Rhythm Mapping
+          </h2>
+          <p class="r-f-about-title-text">
+            Stress leaves traces in your pulse. We read them musically.
+          </p>
+          <p class="r-f-uniqueness-text">
+            Our proprietary algorithm converts biometric input into
+            waveform-based parameters:
+          </p>
+          <div class="r-f-uniqueness-list">
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Pulse tone → rhythm complexity
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                HRV dips → harmonic simplification
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Stress spikes → soft filtering, downward frequency curves
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Mental fatigue → binaural theta oscillation
+              </p>
+            </div>
+          </div>
+          <p class="r-f-uniqueness-text">
+            What you hear is not just music — it’s a direct acoustic reflection
+            of your nervous system's language.
+          </p>
+        </div>
+      </section>
+      <article class="r-f-why" id="why">
         <span style="display: none"
-          >Generated: 2025-04-12, Hash: class-qk39fd-class-7x</span
+          >Generated: 2025-06-01, Hash: r-f-qk39fd-r-f-7x</span
         >
 
-        <div class="class-why-container">
-          <h2 class="class-about-title">Why Us?</h2>
-          <dl class="class-why-list">
-            <div class="class-why-item">
-              <figure class="class-why-img">
-                <img class="class-why-img" src="img/why" alt="" />
-              </figure>
-              <div>
-                <dt class="class-why-text-bold">Fun and Relaxing:</dt>
-                <dd class="class-why-text">Perfect for unwinding after a</dd>
-              </div>
+        <div class="r-f-why-container">
+          <h2 class="r-f-about-title" style="margin: 0 auto">
+            <div class="r-f-about-title-img"></div>
+            Sound Presets
+          </h2>
+          <p
+            class="r-f-about-title-text"
+            style="text-align: center; margin: 0 auto"
+          >
+            Choose or generate – MCPUZ adapts to you
+          </p>
+          <p class="r-f-why-text-one">
+            MCPUZ offers both real-time generated sessions and curated
+            archetypal presets for common states:
+          </p>
+          <dl class="r-f-why-list">
+            <div class="r-f-why-item">
+              <img class="r-f-why-image" src="img/why/For begin (1).png" />
+              <dt class="r-f-why-text-bold">Recovery Drift</dt>
+              <img
+                class="r-f-why-img"
+                src="img/why/Sound Preset Play Button.png"
+              />
+              <dd class="r-f-why-text">
+                Deep ambient + slow pulse-mimicking oscillations
+              </dd>
+            </div>
+            <div class="r-f-why-item">
+              <img class="r-f-why-image" src="img/why/For begin (2).png" />
+              <dt class="r-f-why-text-bold">Focus Lock</dt>
+              <img
+                class="r-f-why-img"
+                src="img/why/Sound Preset Play Button.png"
+              />
+              <dd class="r-f-why-text">
+                Crisp high-frequency tones with subtle phase entrainment
+              </dd>
+            </div>
+            <div class="r-f-why-item">
+              <img class="r-f-why-image" src="img/why/For begin (3).png" />
+              <dt class="r-f-why-text-bold">Anxiety Melt</dt>
+              <img
+                class="r-f-why-img"
+                src="img/why/Sound Preset Play Button.png"
+              />
+              <dd class="r-f-why-text">
+                Low-mid layered textures and gentle stereo movement
+              </dd>
+            </div>
+            <div class="r-f-why-item">
+              <img class="r-f-why-image" src="img/why/For begin (4).png" />
+              <dt class="r-f-why-text-bold">Sleep Flow</dt>
+              <img
+                class="r-f-why-img"
+                src="img/why/Sound Preset Play Button.png"
+              />
+              <dd class="r-f-why-text">
+                Delta-range hums with inaudible theta pulses
+              </dd>
+            </div>
+            <div class="r-f-why-item">
+              <img class="r-f-why-image" src="img/why/For begin (5).png" />
+              <dt class="r-f-why-text-bold">Post-Panic Reset</dt>
+              <img
+                class="r-f-why-img"
+                src="img/why/Sound Preset Play Button.png"
+              />
+              <dd class="r-f-why-text">Natural noise + warm harmonic drone</dd>
             </div>
           </dl>
         </div>
       </article>
-      <section class="class-uniqueness" id="uniqueness">
-        <div class="class-uniqueness-container">
-          <h2 class="class-about-title">Our Uniqueness</h2>
-          <div class="class-uniqueness-list">
-            <div class="class-uniqueness-item">
-              <img class="class-uniqueness-img" src="" alt="" />
-              <p class="class-uniqueness-text-bold">1. Food Fusion Fun</p>
-              <p class="class-uniqueness-text">
-                Discover unexpected recipes and combinations by merging
-                ingredients.
+      <section class="r-f-characters" id="characters">
+        <div class="r-f-characters-container">
+          <h2 class="r-f-about-title">
+            <div class="r-f-about-title-img"></div>
+            Neuro-Audio Research
+          </h2>
+          <p class="r-f-about-title-text">
+            Built on science, refined with real brainwaves
+          </p>
+          <p class="r-f-uniqueness-text">
+            MCPUZ is developed in collaboration with sound therapists,
+            neurologists, and computational artists. Our engine is trained on
+            data from over 10,000 hours of brainwave and biometric recordings.
+          </p>
+          <p class="r-f-characters-text">We apply:</p>
+          <div class="r-f-uniqueness-list">
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Heart-Brain Entrainment Models
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Polyvagal Theory Audio Protocols
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Chronobiological Alignment (Ultradian/Sleep cycles)
+              </p>
+            </div>
+            <div class="r-f-uniqueness-item">
+              <img class="r-f-uniqueness-img" src="/img/Icon.png" />
+              <p class="r-f-uniqueness-text-bold">
+                Deep Reinforcement Learning for dynamic composition
+              </p>
+            </div>
+          </div>
+          <p class="r-f-uniqueness-text">
+            Research-backed. Artistically tuned. Somatically powerful.
+          </p>
+        </div>
+      </section>
+      <section class="r-f-reviews" id="reviews">
+        <div class="r-f-reviews-container">
+          <h2 class="r-f-about-title">
+            <div class="r-f-about-title-img"></div>
+            Testimonials
+          </h2>
+          <p class="r-f-about-title-text">Reviews from our clients</p>
+          <ul class="r-f-reviews-list">
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "MCPUZ helped me get through the worst burnout of my life. The
+                anxiety sequences are like a weighted blanket for my brain."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (1).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Elise M.</p>
+                  <p class="r-f-reviews-text-boldd">Canada</p>
+                </div>
+              </div>
+            </li>
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "I’ve tried dozens of meditation apps, but nothing feels as
+                personal as this. The sound literally follows how I feel."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (2).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Karim L.</p>
+                  <p class="r-f-reviews-text-boldd">France</p>
+                </div>
+              </div>
+            </li>
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "My resting heart rate lowered by 6 BPM after one week of
+                nightly MCPUZ sleep sessions. Incredible."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (3).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Sofia R.</p>
+                  <p class="r-f-reviews-text-boldd">Sweden</p>
+                </div>
+              </div>
+            </li>
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "The AI composer reacts like a real human partner in music. It’s
+                the most intuitive thing I’ve ever used."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (4).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Jonas T.</p>
+                  <p class="r-f-reviews-text-boldd">Germany</p>
+                </div>
+              </div>
+            </li>
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "I’m a trauma therapist and I now recommend MCPUZ to all my
+                clients as a nervous system hygiene tool."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (5).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Dr. Lenora W.</p>
+                  <p class="r-f-reviews-text-boldd">USA</p>
+                </div>
+              </div>
+            </li>
+            <li class="r-f-reviews-item">
+              <img class="r-f-reviews-imgq" src="/img/reviews/Quote Icon.png" />
+              <p class="r-f-reviews-text">
+                "I stopped drinking coffee in the afternoon — Focus Lock keeps
+                me alert without the spike. It’s neuro-nutrition."
+              </p>
+              <div class="r-f-reviews-item-top">
+                <img
+                  class="r-f-reviews-img"
+                  src="/img/reviews/User Image (6).png"
+                  alt="image"
+                />
+                <div>
+                  <p class="r-f-reviews-text-bold">Paolo</p>
+                  <p class="r-f-reviews-text-boldd">Italy</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="r-f-faq" id="faq">
+        <div class="r-f-faq-container">
+          <h2 class="r-f-about-title">
+            <div class="r-f-about-title-img"></div>
+            FAQ
+          </h2>
+          <p class="r-f-about-title-text">
+            We’ve heard your questions — here’s everything explained simply
+          </p>
+
+          <ul class="r-f-faq-list">
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Is this safe to use daily?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                Yes. MCPUZ is non-invasive and safe for everyday use — even
+                multiple sessions a day.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Do I need biometric devices?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                It’s highly recommended for best results, but you can also use
+                questionnaire-based mode.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Is the music pre-recorded?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                No. All core sessions are generated in real time.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Can I use it while working or sleeping</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                Yes — there are background and silent-spectrum options.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Is it suitable for children?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                Yes, with parental supervision and appropriate session types.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>Does it work offline?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                Yes, once the AI model is calibrated on your device.
+              </div>
+            </li>
+            <li class="r-f-faq-item">
+              <div class="r-f-faq-question" onclick="toggleAnswer(this)">
+                <span>How is it different from white noise apps?</span>
+                <button class="r-f-toggle-button">
+                  <img src="/img/icon_caret (1).png" alt="Toggle" />
+                </button>
+              </div>
+              <div class="r-f-faq-answer">
+                MCPUZ adapts actively to you — white noise doesn’t respond.
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="r-f-features" id="features">
+        <div class="r-f-features-container">
+          <h2 class="r-f-about-title" style="margin: 0 auto">
+            <div class="r-f-about-title-img"></div>
+            Contact
+          </h2>
+          <p
+            class="r-f-about-title-text"
+            style="text-align: center; margin: 0 auto"
+          >
+            Have questions or ideas? We’re just a message away
+          </p>
+          <div class="r-f-features-list">
+            <div class="r-f-features-item">
+              <img
+                class="r-f-features-img"
+                src="/img/features/Feature Icon (4).png"
+              />
+              <p class="r-f-features-text-bold">
+                For support, partnerships or press: <br />
+                <a
+                  class="r-f-features-text-bolds"
+                  href="mailto:info@matchrushpuzzle.com"
+                  >info@matchrushpuzzle.com</a
+                >
+              </p>
+            </div>
+            <div class="r-f-features-item">
+              <img
+                class="r-f-features-img"
+                src="/img/features/Feature Icon (5).png"
+              />
+              <p class="r-f-features-text-bold">
+                Follow us on IG and TikTok <br />
+                <a
+                  target="_blank"
+                  class="r-f-features-text-bolds"
+                  href="https://www.instagram.com"
+                  >@mcpuzaudio</a
+                >
               </p>
             </div>
           </div>
         </div>
       </section>
-      <section class="class-reviews" id="reviews">
-        <div class="class-reviews-container">
-          <h2 class="class-about-title">Reviews</h2>
-          <ul class="class-reviews-list">
-            <li class="class-reviews-item">
-              <div class="class-reviews-item-top">
-                <img
-                  class="class-reviews-img"
-                  src="/img/reviews/image 12.png"
-                  alt="image"
-                />
-                <p class="class-reviews-text-bold">GourmetGamer:</p>
-              </div>
-              <p class="class-reviews-text">
-                "This game is so addictive! I love discovering new recipes and
-                decorating my kitchen."
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="class-how" id="how">
-        <div class="class-how-container">
-          <h2 class="class-about-title">How to Play</h2>
-
-          <ul class="class-how-list">
-            <li class="class-how-item">
-              <img
-                class="class-how-img"
-                src="/img/how/image (1).png"
-                alt="image"
-              />
-              <p class="class-how-text-bold">Merge Ingredients:</p>
-              <p class="class-how-text">
-                Drag and merge identical food items to discover new recipes.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="class-characters" id="characters">
-        <div class="class-characters-container">
-          <h2 class="class-about-title">Characters</h2>
-          <ul class="class-characters-list">
-            <li class="class-characters-item">
-              <img class="class-characters-img" src="" alt="" />
-              <p class="class-characters-text-bold">Chef Bella:</p>
-              <p class="class-characters-text">
-                A cheerful pastry chef who inspires creativity in the kitchen
-                with her love for desserts.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="class-faq" id="faq">
-        <div class="class-faq-container">
-          <h2 class="class-about-title">FAQ</h2>
-          <ul class="class-faq-list">
-            <li class="class-faq-item">
-              <div class="class-faq-question" onclick="toggleAnswer(this)">
-                <span>Is "Merge Food - Chef Decoration" free to play?</span>
-                <button class="class-toggle-button">
-                  <img src="/img/faq/icon.png" alt="Toggle" />
-                </button>
-              </div>
-              <div class="class-faq-answer">
-                Yes, the game is free to play with optional in-app purchases for
-                special items.
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="class-gallery" id="gallery">
-        <div class="class-gallery-container">
-          <h2 class="class-about-title">Gallery</h2>
-
-          <ul class="class-gallery-list">
-            <li class="class-gallery-item">
-              <img
-                class="class-gallery-image"
-                src="./img/gallery/3.png"
-                alt="gallery image"
-              />
-            </li>
-          </ul>
-          <div class="class-gallery-button-container">
-            <button class="class-gallery-button class-gallery-list-left">
-              <img
-                class="class-gallery-button-icon"
-                src="img"
-                alt="left button"
-              />
-            </button>
-            <button class="class-gallery-button class-gallery-list-right">
-              <img
-                class="class-gallery-button-icon"
-                src="img"
-                alt="right button"
-              />
-            </button>
-          </div>
-        </div>
-      </section>
-      <section class="class-features" id="features">
-        <div class="class-features-container">
-          <h2 class="class-about-title">Kontakt</h2>
-          <p class="class-features-text-bold">
-            Email:
-            <a class="class-features-text-bold" href="mailto:info@fbrelucye.xyz"
-              >info@fbrelucye.xyz</a
-            >
-          </p>
-          <div class="class-features-div">
-            <form
-              class="class-features-form"
-              action="info@domain.com"
-              method="POST"
-              enctype="text/plain"
-            >
-              <input
-                class="class-features-input"
-                type="text"
-                name="name"
-                placeholder="Imię i Nazwisko"
-                required
-              /><input
-                class="class-features-input"
-                type="tel"
-                name="phone"
-                placeholder="Telefon"
-                required
-              />
-              <input
-                class="class-features-input"
-                type="email"
-                name="email"
-                placeholder="E-mail"
-                required
-              />
-              <textarea
-                class="class-features-input class-features-textarea"
-                name="message"
-                placeholder="Mesaj"
-                required
-              ></textarea>
-              <button class="class-features-button" type="submit">
-                Zamów narzędzie czasu
-              </button>
-            </form>
-
-            <img class="class-features-img" src="/img" alt="" />
-          </div>
-        </div>
-      </section>
     </main>
-
+    <footer class="r-f-footer" style="margin: auto; background: #000d1e">
+      <div class="r-f-footer-container">
+        <div class="r-f-footerq">
+          <div class="r-f-footer-div">
+            <img class="r-f-footer-img" src="/img/logo.png" alt="logo" />
+            <p>MCPUZ — Designed for the nervous system, not just your ears.</p>
+          </div>
+          <div class="r-f-footer-wrapper">
+            <a class="r-f-footer-text" href="/policy.html">Privacy Policy</a>
+            <a class="r-f-footer-text" href="/terms.html"
+              >Terms and Conditions
+            </a>
+            <a class="r-f-footer-text" href="/cookies.html">Cookies Policy</a>
+          </div>
+        </div>
+        <p class="r-f-footer-copyright">
+          © 2025 matchrushpuzzle.com | All rights reserved
+        </p>
+      </div>
+    </footer>
     <script src="js/mobile-menu.js"></script>
-    <script src="js/jquery-loc-class-0.js"></script>
+    <script src="js/jquery-loc-r-f-0.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="js/slick.js"></script>
   </body>
